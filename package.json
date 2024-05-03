@@ -1,0 +1,20 @@
+{
+  "name": "wallet-connect",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "@web3modal/ethers": "^4.1.11",
+    "@web3modal/siwe": "^4.1.11",
+    "ethers": "^6.12.1",
+    "siwe": "^2.3.2"
+  }
+}
